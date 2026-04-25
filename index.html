@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&family=Montserrat:wght@100..900&family=Michroma&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins: ["Poppins", "sans-serif"],
+            mont: ["Montserrat", "sans-serif"],
+            michroma: ["Michroma", "sans-serif"],
+            inter: ["Inter", "sans-serif"],
+          },
+        },
+      },
+    };
+  </script>
+
+  <title>WEB DEVOLPMENT</title>
+</head>
+
+<body class="overflow-x-hidden">
+<section class="bg-purple-800 relative h-[450px]">
+  <nav class="flex justify-between items-center px-10 py-4">
+    <img src="./Logo.png" alt="logo">
+
+    <ul class="flex gap-8 text-white font-Michroma items-center">
+        <li class="transition transform hover:scale-110 hover:text-black h-5 hidden xl:flex">Home</li>
+            <li class=" transition transform hover:scale-110 hover:text-black h-5 hidden xl:flex">Apis</li>
+            <li class="transition transform hover:scale-110 hover:text-black h-5 hidden xl:flex">Blogs</li>
+            <li class="transition transform hover:scale-110 hover:text-black h-5 hidden xl:flex">Forums</li>
+            <li class="transition transform hover:scale-110 hover:text-black h-5 hidden xl:flex">Login</li>
+            <li class=" transition transform hover:scale-110 text-black bg-white h-5 hidden xl:flex">Sign up</li>
+
+      <li class="lg:hidden">
+        <i class="fa-solid fa-bars"></i>
+      </li>
+
+      <li>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </li>
+    </ul>
+  </nav>
+
+  
+  <img src="./IMAGE HERE.png"
+       class="hidden lg:block absolute right-0 top-20"
+       alt="">
+
+  <div class="flex justify-center lg:hidden">
+    <img src="./IMAGE HERE.png" class="h-[400px]" alt="">
+  </div>
+
+ >
+  <div class="px-10 py-16 font-inter text-white">
+    <img src="./Rectangle_12.png" alt="">
+
+    <p class="hidden lg:block w-1/2 mt-6 text-xl font-medium font-poppins">
+      Lorem ipsum  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, eaque? Omnis nemo soluta quibusdam dolorem id, necessitatibus, cum velit, voluptatem esse commodi officia laborum rerum provident eos cumque optio sed! dolor sit amet consectetur adipisicing elit. Cumque inventore facere ut dolorem.
+    </p>
+
+    <p class="hidden lg:block mt-3 text-sm font-poppins">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+  </div>
+
+</section>
+
+
+<section class="hidden lg:flex gap-10 px-10 py-4 font-bold font-mont">
+  <h1>Company One</h1>
+  <h1>Company Two</h1>
+  <h1>Company Three</h1>
+</section>
+
+
+<section class="px-10 py-6 font-poppins">
+
+  <h1 class="text-xl lg:text-3xl font-bold font-inter mt-6">
+    APIs by category
+  </h1>
+
+  <div class="flex flex-wrap gap-10 justify-between mt-10">
+
+   
+    <div>
+      <img src="./Group 97.png">
+      <h2 class="font-medium ">Identity Security</h2>
+      <p class="hidden md:block">Lorem ipsum dolor sit amet Lorem 
+
+      </p>
+    </div>
+
+    <div>
+      <img src="./Group 98.png">
+      <h2 class="font-medium">Data & Analytics</h2>
+      <p class="hidden md:block">Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <div>
+      <img src="./Group 99.png">
+      <h2 class="font-medium">Commercial</h2>
+      <p class="hidden md:block">Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <div>
+      <img src="./Group 100.png">
+      <h2 class="font-medium">Offer & Benefits</h2>
+      <p class="hidden md:block">Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <div>
+      <img src="./Group 101.png">
+      <h2 class="font-medium">Payment Method</h2>
+      <p class="hidden md:block">Lorem ipsum dolor sit amet</p>
+    </div>
+
+    <!-- BUTTON -->
+    <div class="bg-violet-600 w-10 h-10 flex items-center justify-center rounded-full text-white transition transform hover:scale-110 hover:bg-purple-900">
+      <i class="fa-solid fa-angle-right"></i>
+    </div>
+
+  </div>
+</section>
+
+<section class="px-10 py-6">
+
+  <div class="flex justify-between">
+    <h1 class="text-xl lg:text: font-bold">Latest Blog Article</h1>
+    <span class="text-violet-600 hover:bg-blue-200">See all articles</span>
+  </div>
+
+  <div class="flex flex-col lg:flex-row gap-10 mt-6">
+
+   
+    <div class="bg-sky-100 p-5 rounded-md flex flex-col md:flex-row gap-5 relative">
+      <img src="./Rectangle.png">
+      <div>
+        <p class="text-violet-600 mt-4">06 Aug 2019</p>
+        <h2 class="font-bold text-lg md:text-xl mt-2">Custom-made loyalty programme</h2>
+        <p class="mt-2 text-sm">Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit, sunt libero <br> nemo modi consequatur amet rem ad quas maiores quis, autem voluptatum porro <br> obcaecati? Omnis vel earum voluptate <br> libero sint soluta eum eius quasi! Molestias.</p>
+      </div>
+    </div>
+
+  
+    <div class="bg-sky-100 p-5 rounded-md flex flex-col md:flex-row gap-5 relative">
+      <img src="./Rectangle Copy.png">
+
+      <div>
+        <p class="text-violet-600 mt-4">08 Aug 2019</p>
+        <h2 class="font-bold text-lg md:text-xl mt-2">Travelling with ease</h2>
+        <p class="mt-2 text-sm">Lorem ipsum dolor sit Lorem ipsum dolor <br>sit amet consectetur adipisicing eniam velit? amet consectetur.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container bg-sky-100 mt-10 flex justify-between w-auto  ">
+
+  <div class="px-10 py-6">
+    <h2 class="text-xl lg:text-2xl font-bold">Have a question?</h2>
+    <p class="hidden md:block mt-2">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, perspiciatis..</p>
+    <br>
+    <h2 class="font-medium">Do You Have Any Questions about anYthing ?</h2>
+    <button class="bg-purple-900 text-white px-6 py-2 mt-3 rounded-md transition transform hover:scale-105">
+      Contact Us
+    </button>
+  </div>
+  <img src="./Rectangle_38-2 (1).png" alt="" class="w-1/2 h-[240px] mb-8 md:w-[]">
+</section>
+<section class="px-10 py-16 flex flex-col lg:flex-row justify-between items-center">
+
+  <h2 class="hidden lg:block font-bold text-xl text-blue-600">
+    Download <span class="font-normal  text-black ">Now</span>
+  </h2>
+
+  <div class="bg-sky-100 rounded-full flex items-center px-4 py-2 w-full lg:w-auto mt-4 lg:mt-0">
+    <input type="text" placeholder="Enter your email"
+           class="bg-transparent outline-none px-4 w-full">
+
+    <button class="bg-violet-900 text-white px-6 py-2 rounded-full">
+      Download
+    </button>
+  </div>
+
+</section>
+<div class="bg-violet-800 text-white px-10 py-10">
+  <div class="flex justify-between">
+    <img src="./Logo.png">
+
+    <div class="flex gap-4 transition">
+      <img src="./Group 104.png" class="transition transform hover:scale-105">
+      <img src="./Group 102.png" class="transition transform hover:scale-105">
+      <img src="./Group 103.png" class="transition transform hover:scale-105">
+    </div>
+  </div>
+
+  <div class="hidden md:flex justify-between mt-8 text-sm font-poppins">
+    <ul class="flex gap-4">
+      <li>@Lorem ipsum</li>
+      <li>Home</li>
+      <li>ApIs</li>
+      <li>Blogs</li>
+      <li>Forums</li>
+    </ul>
+
+    <ul class="flex gap-4">
+      <li>FAQ</li>
+      <li>Business</li>
+      <li>Help</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
