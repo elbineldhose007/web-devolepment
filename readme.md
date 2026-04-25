@@ -20,6 +20,9 @@ A modern, responsive landing page built using **HTML**, **Tailwind CSS**, and **
 
 
 ## preview
+
+[live](https://elbineldhose007.github.io/web-devolepment/)
+
 ![img](./Screenshot_24-4-2026_21133_127.0.0.1.jpeg)
 
 ---
